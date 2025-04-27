@@ -24,10 +24,10 @@ void setup() {
     Serial1.begin(115200);    
     ssGPS.begin(GPSBaud);  //(9600)
 
-    Serial.println("Initialising SIM800L...");
+    Serial.println("Initialising SIM800L");
     delay(1000); //note this needs to change to the average antiuation time as atm too quick 
 
-    Serial.println("Initialising MPU6050...");
+    Serial.println("Initialising MPU6050");
     Wire.begin();
     delay(500);
 
